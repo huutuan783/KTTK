@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #menu {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 10%;
+        width: 1442px;
+        align-items: center;
+    }
+    
+    #menu_trai {
+        display: flex;
+        width: 250px;
+        justify-content: space-around;
+    }
+    
+    #menu_phai {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #banner {
+        background-image: url(banner.png);
+        height: 600px;
+        width: 1441px;
+        position: relative;
+    }
+    
+    #noidung {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+    }
+    
+    #noidung a {
+        width: 180px;
+        height: 51px;
+        background-color: green;
+        padding: 10px 10%;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+    }
+    
+    #section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    #section .card1 {
+        height: 474px;
+        background-color: white;
+        width: 282px;
+        background-image: url(Image\ 1.png);
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        position: relative;
+    }
+    
+    #section .card2 {
+        height: 474px;
+        background-color: white;
+        width: 282px;
+        background-image: url(Image\ 1\ \(1\).png);
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        position: relative;
+    }
+    
+    #section .card3 {
+        height: 474px;
+        background-color: white;
+        width: 282px;
+        background-image: url(Image\ 1\ \(2\).png);
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        position: relative;
+    }
+    
+    #section .card4 {
+        height: 474px;
+        background-color: white;
+        width: 282px;
+        background-image: url(Image\ 1\ \(3\).png);
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        position: relative;
+    }
+    
+    #section .chitietcard1 {
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+    }
+    
+    #section .chitietcard2 {
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+    }
+    
+    #section.chitietcard3 {
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+    }
+    
+    #section.chitietcard4 {
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="menu">
+            <div id="menu_trai">
+                <div id="Shop">Shop</div>
+                <div id="Offers">Offers</div>
+                <div id="Our_Story">Our Story</div>
+                <div id="Blog">Blog</div>
+            </div>
+            <div id="menu_giua">
+                <img src="logo.png" alt="">
+            </div>
+            <div id="menu_phai">
+                <input type="text">
+                <img src="cart.png" alt="">
+                <img src="user.png" alt="">
+            </div>
+        </div>
+        <div id="banner">
+            <div id="noidung">
+                <h1>Gift for your Skin</h1>
+                <p>Aliqip fugiat ipsum nostrud ex et eu incididunt quis minim dolore excepteur voluptate</p>
+                <a href="Shop now">Shop Now</a>
+            </div>
+        </div>
+        <div id="filter">
+            <h1>Our Product</h1>
+            <a href="Best seller">Best Seller</a>
+            <a href="New product">New Product</a>
+        </div>
+        <div id="lineitem">
+        </div>
+        <section>
+            <div id="card1">
+                <div id="chitietcard1">
+                    <h2>Product Tittle</h2>
+                    <p>labore sint ipsum dolore mollit</p>
+                    <div id="tien">
+                        <h2>$32</h2>
+                        <p>$42</p>
+                    </div>
+                </div>
+            </div>
+            <div id="card2">
+                <div id="chitietcard2">
+                    <h2>Product Tittle</h2>
+                    <p>labore sint ipsum dolore mollit</p>
+                    <div id="tien">
+                        <h2>$32</h2>
+                        <p>$42</p>
+                    </div>
+                </div>
+            </div>
+            <div id="card3">
+                <div id="chitietcard3">
+                    <h2>Product Tittle</h2>
+                    <p>labore sint ipsum dolore mollit</p>
+                    <div id="tien">
+                        <h2>$32</h2>
+                        <p>$42</p>
+                    </div>
+                </div>
+            </div>
+            <div id="card4">
+                <div id="chitietcard4">
+                    <h2>Product Tittle</h2>
+                    <p>labore sint ipsum dolore mollit</p>
+                    <div id="tien">
+                        <h2>$32</h2>
+                        <p>$42</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</body>
+
+</html>
